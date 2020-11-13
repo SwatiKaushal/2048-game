@@ -1,0 +1,6 @@
+C:\Users\rahul\Desktop\GitRepos\2048-game\2048_Game\2048_Game\bin\2048_Game.dll.config
+C:\Users\rahul\Desktop\GitRepos\2048-game\2048_Game\2048_Game\bin\2048_Game.dll
+C:\Users\rahul\Desktop\GitRepos\2048-game\2048_Game\2048_Game\bin\2048_Game.pdb
+C:\Users\rahul\Desktop\GitRepos\2048-game\2048_Game\2048_Game\obj\Debug\2048_Game.csprojResolveAssemblyReference.cache
+C:\Users\rahul\Desktop\GitRepos\2048-game\2048_Game\2048_Game\obj\Debug\2048_Game.dll
+C:\Users\rahul\Desktop\GitRepos\2048-game\2048_Game\2048_Game\obj\Debug\2048_Game.pdb
