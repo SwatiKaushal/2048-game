@@ -29,12 +29,14 @@
         }
         return emptyList;
     },
+
+    
     newBox: function () {
         var _this = this;
 
 
         var box = function (obj) {
-            var num = Math.random() > 0.9 ? 4 : 2;
+            var num = Math.random() > 0.9 ? 4 : 2; // generate number randomly
             this.value = num;
             this.parent = obj;
             this.domObj = function () {
@@ -55,6 +57,7 @@
             return true;
         }
     },
+    //checking the codition for game over
     isEnd: function () {
         var emptyList = this.empty();
         if (!emptyList.length) {
@@ -229,10 +232,12 @@ function disableSelection(target) {
         target.onmousedown = function () { return false }
     target.style.cursor = "default"
 }
+
+// init function on page loading
 window.onload = function () {
-    gameObj.intiStage();
+    gameObj.intiStage();  // for generating 4*4 grid
+    gameObj.newBox();    //   populating tiles
     gameObj.newBox();
-    //    gameObj.newBox();
     var stage = document.getElementById('stage');
     document.onmousedown = function (e) {
         var event = e || window.event;
